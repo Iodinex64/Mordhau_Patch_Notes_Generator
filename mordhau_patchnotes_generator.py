@@ -3,7 +3,7 @@ import random
 
 with open("every_mordhau_patchnote_ever.txt") as f:
     text = f.read()
-text_model = markovify.NewlineText(text, state_size=3)
+text_model = markovify.NewlineText(text)
 
 patchie = open("patchie.txt", "w")
 
