@@ -1,0 +1,1119 @@
+Matchmaking improvements
+Joining a server will now reserve a slot in advance, fixing the issue of being booted after loading.
+Server owners will have to make sure that the beacon port (15000) is reachable; it can be overridden on the command line with BeaconPort=<port>
+Fixed players being able to get out of bounds on Mountain Peak
+Fixed some icicles not dropping on Mountain Peak
+Weapons/projectiles no longer collide with bounds on certain maps
+Fixed spectators being kicked for AFK even when moving
+Fixed fire kills not being tracked
+Fixed Pyromaniac achievement not working
+Fixed Whack A Mole achievement
+Fixed couched head kills not being tracked
+Potential fix for a rare(?) crash (could also crash the server)
+Added m.ThirdPersonDeathCamera by default it is disabled, added it to settings as well. Does what it says, forces 3p camera on death. Can help for people who get motion sick.
+Audio
+Increased volume of human footsteps and horse galloping, increasing sound awareness
+Catapult & Ballista firing sounds can now be heard from further away, increasing awareness
+Fixed horn on camp being too loud at certain times
+Increased volume of low stamina breathing and made it more even across voice sets, making it easier to notice in fights
+Lute is now louder
+Added friend UI marker - can be toggled with H, in the options or m.friendlymarker console command. Has 3 states (friends & party, all teammates and off).
+Frontline spawn screen now shows friends and party members as orange dots
+Added "Show Killed By" toggle in the options or m.ShowKilledBy, can be used to turn off the killed by panel
+Tutorial reward message on main menu now hidden when it is completed
+Fixed ghost bug
+Fixed not full server browser filter not working
+Fixed Yoink achievement not working
+Fixed change banner button being partially covered by the stats widget on some aspect ratios
+Fixed face tab displaying wrong header
+Spectators can no longer initiate or participate in vote kicks
+Starting votekicks and casting votes against enemies is no longer possible in team modes
+Avoiding votekicks by leaving the server is no longer possible
+Votekicks now need more vote majority to succeed
+Fixed unlocking getting stuck
+Fixed high level unlocks staying locked despite reaching the level
+Added Gothic buckler skin
+Added Kleines Messer (Cleaver skin)
+Added Baron's Cutter (Cleaver skin)
+Kicks now have more range against active held blocks and recovery. This will significantly increase range of kicks against shields and fist block only (Doesn't affect parries/timed blocks)
+Increased kick tracer width slightly (making it more reliable in facehug range)
+Nerfed chase mechanic slightly - now has a bit less activation range & movement speed bonus upon activation. This will make it weaker mostly against unarmored builds.
+Increased stab early release by 25ms (this will make all stabs hit very slightly slower)
+Heater and Kite shield block adjusted, it is now slightly easier to hit around these shields
+Fixed parry backpedal speed being lower on targe/buckler than regular parry
+Fixed eveningstar having 5 stamina on hit instead of 10 on stabs
+Mallet and Blacksmith hammer now have more range
+Mallet repair ability buffed
+Deployable ballista can now turn more, has faster ammo replenish and has slightly more health
+Deployable spikes now have slightly more width, covering more area
+Toolbox now spawns with 5 out of 6 ammo and now resupplies 6 ammo at ammo boxes instead of 3
+Smokes now disable chase mechanic
+Frontline capturing & neutralizing is now faster
+Fixed straw shack roof having no collision on MountainPeak
+Fixed some icicles
+Fixed attempt for bug in BR where if you die at warmup 1 second you can get the defeat screen despite respawning
+Potential fix for slots not being reserved for existing players on map change
+Potential fix for server browser not working for some people / not seeing any servers
+Server browser and matchmaking filters now save properly
+Shortspear holster is only on the back
+Fixed floating weapons in demos
+Lowered volume of ballista hit sound
+Fixed bots being given too many turds up-front in certain cases, which would cause them to unload the volleys of turd reserves even long after the player leaves the stuck spot
+Horde bots turds now have AOE damage, nerfing the ability to avoid the horde by camping towers and other places where the horde can't reach the player
+Scoreboard now automatically scrolls to always show the player's entry
+Fixed Kleines Messer and Baron's Cutter (cleaver skins) having more range than the base cleaver skins
+Added new map: Crossroads
+Added new siege engine: Mortar - can be found in the fort on Crossroads
+Added new weapon: Heavy Handaxe - a slow, versatile and powerful 3 point one handed axe that can be flipped around to a hammer side, which can be used to repair structures
+Added new weapon: Javelin - a 3 point dedicated throwable spear with 2 ammo
+Added various painted plate chest variants
+Taiga balance - various changes have been made in order to balance the map more
+Toolboxes can no longer place structures in spawn areas (either friendly or enemy)
+Traps can no longer be planted in spawn areas (either friendly or enemy)
+Players that leave the game during votekick now cause the vote to pass and get the 5 min ban
+Capturing & neutralizing points now gives more points
+Toolbox structures no longer bump the player between building stages
+Funland
+Added carrot
+Holding block with shield will now automatically bring the block back up upon getting hit instead of having to re-press the button
+Shield backpedal speed buffed slightly
+Shield held block volume now slightly easier again
+Kick range vs shield reduced slightly
+Glancing blow damage reduced even further - now does 10% instead of 33% of the initial attack
+Glancing blow now easier to trigger by 5 degrees
+Naked & Light armor movement speed is now faster
+Fixed slight Horse movement desync
+Horse bumps now slow down the horse slightly more
+Horse now takes slightly less fire damage
+Easy parry stamina gain increased by 5
+Longbow arrow projectile speed buffed (5300 -> 5600)
+Longbow draw slightly faster (100ms), reload slightly slower (100ms)
+Crossbow damage against armored torsos buffed
+Recurve bow draw slightly faster (50ms)
+Recurve bow arrow speed increased very slightly (4900 -> 5000)
+Recurve bow can now partial sprint during draw, reload and release - this will buff mobility greatly
+Improved jump sway on all ranged weapons
+Huntsman perk point cost reduced to 1
+Ranger perk point cost reduced to 1
+Leg damage increased across the board - this is slight for armored legs and significant for tier 1 legs, which are now like the torso counterpart in HTK
+Active stab releases reduced slightly on the following weapons: Halberd, Spear, Billhook, Bardiche alt mode, Poleaxe, Eveningstar, Zweihander main mode
+Halberd alt mode stab windup increased 25ms
+Halberd stab damage vs plate helmet reduced to 45
+Bardiche alt mode now one shots naked legs
+Spear main mode stab now deals 3 more damage to plate torso, but 3 less to plate head
+Spear alt mode stab damage vs plate helmet reduced to 45, reduced vs medium helmet to 65
+Spear alt mode stamina negation increased to 13
+Longsword main mode strike release reduced 25ms
+1H Axe combo speed buffed
+1H Axe strike release increased 25ms
+Poleaxe point cost reduced to 6
+Rock point cost reduced to 1
+Pavise point cost reduced to 1
+Executioner sword strike damage vs armored helmets reduced by 5
+Executioner sword stab damage reduced across the board
+Zweihander halfswording buffed
+Zweihander stab damage vs plate helmet reduced to 45
+Zweihander stab stamina drain reduced by 1
+Zweihander strike miss stamina cost increased by 1
+Greatsword halfswording buffed
+Billhook strike releases reduced 25ms
+Eveningstar strike buffed damage against armored heads slightly
+Eveningstar strike released increased 25ms
+Eveningstar main mode stab damage vs plate helmet reduced to 45
+Messer strike now 25ms faster windup but more restricted turncap
+Estoc strike release reduced 25ms
+Estoc stab has slightly more damage vs plate torso
+Bastard sword 2H strike release reduced 25ms
+Bastard sword strike combos 25ms faster
+Bastard sword stab slightly more damage vs plate torso
+Warhammer strikes now 25ms faster
+Warhammer strike stamina drain +1
+Warhammer alt mode reworked - now the same as the main mode but greatly increased headshot damage and cannot combo. Straight damage upgrade but more risky to use
+Arming sword stab now has 1 more damage vs plate torso
+Arming sword strike now deals 34 vs plate head
+Dagger stab damage buffed, strike damage nerfed
+Cleaver strike damage buffed, stab damage nerfed
+Mace stab windup speed up 25ms
+Falchion strike windup speed up 25ms
+Shortspear throw damage buffed to 50 vs plate torso
+Fire damage against structures reduced slightly
+Fixed Cave entrance being blocked on MountainPeak
+Fixed Icicles
+Fixed an out of bounds exploit in Grad dungeon
+Fixed an out of bounds exploit on Contraband
+Held shield block lowering animations are now more snappy & responsive
+Added 11 new emblems (Kickstarter backer-submitted)
+Fixed a bug with spectating players in 3p which booted the camera to a random spot on death
+Reduced size of emblem on crude plate skirt
+Estoc proportions readjusted - now thicker
+Fog fix on Grad for 21:9 and other aspect ratios
+Adjusted collision on the buildable spike wall so that stair is easier to get up in weird angles
+Improved longsword & bastard sword hitsounds
+Footstep sounds of enemies/allies increased slightly more
+75 damage dealt will now be assist count as kill
+Added client side chat mutes to context menu (normal mute - completely silences player, motivational mute - replaces user's next messages with motivational quotes) - muting is done by clicking on a user's message in the chat and selecting the options from the context menu, votekicking is also possible from here.
+Crosshair dot color turns red when looking at an enemy and slightly transparent when looking at an ally
+Home screen news panel improvements
+Moved tutorial access to a new Training tab under Fight
+Scoreboard autoscroll now only scrolls as much as needed, should see the top scorer in more cases
+Raised minimum voters for a kickvote vote to be valid: 50% of the team (was 33% of the team), meaning a vote will not succeed unless 50% of the team casts their vote (whether yes or no)
+Currently played Frontline map will be excluded on the next map vote, so you can no longer play the same map twice in a row
+Added fix for Steam Inventory timeouts. The inventory will now merge smaller item stacks on startup, this can take up to 5 minutes the first couple times but should eventually only take a few seconds.
+Added Katzbalger Executioner Sword skin
+Added Feather Damascus Bastard Sword skin
+Added checkered patterns for Heavy Tabard
+Fixed auto assign breaking team limits if auto assigning while on a team (would put you on the other team and go over the cap), now does nothing if you are already on a team
+Crossroads changes: spawn protection for infantry spawns, fixed some stuckspots, clamped exposure range to help visibility, no more forward spawn when holding center, bit more background detailing, minor layout changes for balance, slightly more fog to increase sense of depth, minor navigation fixes, tweaked ballista angles
+Bunch of CPU optimizations
+Fixed a Horde crash when having Warden's Eveningstar skin selected as customization
+Fixed a combat bubble exploit
+Fixed MMR/placement match count reverting
+Fixed slot reservation for matchmaking lobby members (fixes "Server is full" message)
+FIxed ranked duel countdown UI
+Small fixes on Crossroads (stuckspots etc.)
+Fixed missing font for Korean localization
+Fix for bug sometimes causing ranked duels to be 2v1
+Fixed votekick 10 minute ban being global, now it is only for that server
+Veteran set colors rearranged to have proper team colors, chainmail parts now take armor tint
+Lowered gold rewards for duels to be more in line with other modes
+Auto kick teamkill amount reduced to 5
+Horde - players can no longer be flinched, have 15% faster melee windups, 50% less melee miss recovery and receive 50% less damage from projectiles
+Horde health on kill reduced to 10
+Fixed remaining server is full error
+Global official server ban list is now active
+Reverted experimental global timing changes (all releases, parry window and chamber windows increased 25ms) - Chamber window is still nerfed 25ms total
+Stamina start regen delay increased 50ms to 1.3 (from 1.25)
+Combo feint buff reduced 25ms (75ms total now)
+Bound overhead angle change reduced 2.5 degrees
+Reduced maximum lower stab angling
+Held block shields now have 2 less stamina negation
+Held block shields now have stricter blocking turncap
+Held block shields can no longer riposte feint using the block - now forces a full parry window & recovery time on the block (915ms)
+Certain strikes now have bonus stamina damage against shields, following weapons are affected, starting with the lowest bonus stamina damage - 1H Axe, Poleaxe, Halberd, Heavy Handaxe, Maul, War Axe, Bardiche, Battle Axe
+Eveningstar strike turncaps slightly more strict
+Slowed down stab windup by 25ms for following weapons: Bastard sword, Shortspear, Bardiche, Halberd, Poleaxe, Greatsword, Longsword main mode, Messer, Zweihander
+Firepot damage adjusted to be more useful
+Reverted Halberd alt mode stab turncap buff
+Veteran's chest color fix
+Added MMR display to duel end screen, player menu, and matchmaking screen
+Fixed mirrored siege tower applying damage on wrong side when it falls.
+Fix for Invasion objective characters (commander/warden) healing with bandage when pressing mode switch (also fixed mode switch healing when at full hp and wasting bandage)
+Warden's mace in Invasion can no longer be dropped
+Fixed loadout switching breaking in duels
+Fix for warden not being offered to 2nd best player first
+Fixed warden waypoint causing him to go out of bounds on Invasion Grad
+Invasion Grad spawn protection adjustments
+Fixed scaled characters having issues with the climbing animation, and enabled climbing for warden and commander in Invasion
+Fixed game modes being translated in Russian, which was causing issues
+Objective characters (warden/commander) can no longer press the suicide key to suicide
+Peasants can't be walked on anymore
+AutoKickOnTeamKillAmount can now be set in config by server owners (in the gamemode section)
+Disabled collision on Taiga spline rails
+Changes to improve backend stability
+Players are now locked out of most menus if connecting to the backend times out (5 min) and asked to try again later; primarily prevents players from breaking their loadouts
+Fixed community servers not logging back in after their session expires
+Pushables no longer receive decals
+Marked all instances of localizable gamemode names as non-localizable, which fixes various issues with servers running in a localized region
+Fixed mod manager nav button not lighting up correctly when selected
+Updated mod.io plugin (CentOS support)
+Client & server CPU optimizations
+Slightly different network prioritization calculation for characters
+Medpack now gives score depending on how much was healed (0.75 score per 1 hp healed), so at 100 hp healed you'd get 75 score, before it gave 50 score regardless of amount of health restored.
+Fixed scoreboard not scrolling to show player entry
+Fixed a bug involving equipment restrictions in duel that could cause them to be bypassed
+Fixed invasion spawn values being different from Frontline: Player spawn 5->15, Ballista 30->180, Cata 30->180, Horse 30->120
+Added destroyable trees to taiga that act as bridges and environment traps
+Adjusted spawns on camp to favor first objective for attackers a bit
+Added another burnable house to the camp on taiga to make defending a bit easier
+Updated mod.io plugin (Linux server crash fix)
+Fix for mod downloads being skipped
+Potential fix for auth ticket error
+Fix for failing community server reward drops
+Miss combos no longer have lunge
+Ripostes can now chamber, their chamber window is the entirety of the windup (chamber restrictions/sides still apply)
+Riposte clashes will now overpower regular strikes
+Flesh wound now sets stamina to 0 when it triggers
+Flesh wound point cost reduced to 2
+Blocking horse rider couch/joust no longer ragdolls
+Adjusted regular strike release curve - now looks better and more readable
+Riposte strikes now have their own release curve, which is linear - this fixes the stutter in the early release transition periods and makes them more readable
+Fixed a spawn protection box that poked through the ceiling on INV_Grad
+TeamFlinch is now a server variable (same place as teamdamage is set, TeamDamageFlinch = 1 to enable) which will cause team hits to flinch teammates. Disabled by default.
+Riposte stabs no longer angle (always straight), they also no longer let you choose the side of the stab, the side chosen is inherent in the parry side, which forces stabs to use the more readable (flip-around) animation, fixing cases of "jpeg stabs"
+Strike->stab morphs will now force the stab to use the same angle as the strike, making the action more natural looking and less snappy
+Attack turn compensation is now enabled in all directions (previously depended on angle, e.g. horizontals had no up-down compensation, and overheads had no left-right compensation). - this will make certain cases more readable and no longer instant hit
+Added new map, Feitoria with support for all existing modes: INV_Feitoria_0, FL_Feitoria, HRD_Feitoria, FFA_Feitoria, FFA_Feitoria_64, SKM_Feitoria, SKM_Feitoria_64, TDM_Feitoria, TDM_Feitoria_64, BR_Feitoria
+Added stone basket trap interactable to existing maps
+Added oil cauldron interactable to existing maps
+Added boulder throwable which can be obtained from an interactable stone pile placed on existing maps. Deals more damage the faster it's falling (gravity)
+Ladders now have an interaction UI widget like most interactables, and can now be dropped and raised by holding interact, as long as nobody is on them
+Invasion player respawn to 5s again
+Fixed getting stuck on Taiga trees
+Added 3 choppable trees to Grad
+Fixed exploiting NPCs in invasion/frontline by blocking them off
+Fixed removebots command removing map NPCs
+Crouch slowed down 25ms
+Reverted miss combos no longer having lunge change from previous patch
+Increased climbing speed on ladders by 15%
+It is now possible to jump off ladders while on them, jump will go where the player aims
+Base jump stamina cost reduced to 10
+Cat perk fall damage reduction buffed to 90%
+Brawler perk now also speeds up fists
+Executioner Sword strike turncap now more strict
+Executioner Sword stab stamina drain reduced by 1
+Added new flat top helmet with 5 variations: Covered flat top, Covered flat top orle, Enclosed flat top, Enclosed flat top orle, Visored flat top
+Fall damage now has camera shake
+Camera calculations (3p and 1p) now take into account scale, making scaled characters look natural (viewmodel animations)
+Character scale is taken into account for interaction distance, allowing picking things up etc for bigger characters
+Fixed crossbow 1p interact animation
+Destroyable fence gate now has an additional state that removes the bottom board.
+Helmets now draw fake shadows onto the face to add depth and make them seem more grounded
+Fixed kills with torch saying "Stone" in the killfeed
+Improved a few equipment fall sounds and added some that were missing
+Ragdoll fall impacts now play the body thud sound while alive (previously only played when dead)
+Fixed a few Tier 2 (open) helmets muffling voice
+Enemy footsteps are now louder
+Fixed Feitoria NPC weapons counting towards teamkill autokick
+Small collision fixes on Feitoria
+Removed mortar on Feitoria for the time being
+Nobles and Guards on Feitoria can now properly drop/throw/use weapons and equipment that they have picked up
+Tweaked Capture point and spawn placement between Outskirts and Keep capture points on FL_Feitoria
+Fixed overlapping fortifications on FL_Feitoria
+Lowered max speed of siege tower on INV_Feitoria
+Tweaked collision on Large Rock spawners so you can walk over them
+Substantial CPU optimizations across the board to improve overall FPS and remove stutters and hitches during gameplay, especially on larger player counts
+Optimized and improved loading times
+Workaround for server information update error
+Reworked Feitoria Invasion layout
+Disabled dodging with barrels
+Changed how deliverables work, it is now possible to drop them and pick them up (for attackers), and defenders can hold interact to destroy them
+Disabled climbing on oil cauldron, ammobox, rock spawn, rock basket
+Time to decline objective participation from 6s to 4s
+Fixed a case where dying on ladder in Horde wouldn't remember your equipment
+BR/HRD Ladders on Grad now raise-/droppable
+King-type objectives (Invasion) are now invulnerable until the first player could've possessed them (prevents rushing to take advantage of AI)
+Traps and pavises no longer allowed to be placed on destroyables (which when destroyed would cause them to float)
+Parry/Chamber box is now bigger - now significantly wider horizontally, fixing cases of attacks going through parries. Now always covers the legs and feet vertically, this fixes the broken toe stabs and makes it much easier to deal with overhead drags to the legs. - also affects shields, although less. Parry knockback reduced slightly
+Parry turncap slightly more strict
+Global attack turncaps 5% more strict
+Trying to change attack direction during a strike release too many times will now get compensated by the game - this fixes (or attempts) the broken drags such as sky drags, waterfalls/wessex etc and promotes playing more "normal"
+Attack lunge now decreases gradually after 105cm weapon range (Longsword) - this means that the longest weapons now have the least amount lunge
+Miss recovery is now based on weapon length and speed or "weight" - this means that short one handed weapons now have significantly less miss recovery, making them much more nimble and lighter in use. Longer weapons have more, making misses more punishing.
+Blunt weapons now have crippling effect - this means that being hit by a blunt weapon now slows you down more when being flinched and causes more camera shake/stun effect - comes in two tiers, strength depending on the attack and weapon. Tier 1 slows down 12.5%, Tier 2 slows down 25%
+Billhook now has immobilize on the attacks that pull. This heavily slows down enemies and allows you to control them much easier
+Stab knockback is now straight and more predictable
+Huntsman now works differently and is no longer based on quiver, now only applies to enemies with a bow/crossbow in hand. This means that when switching to a melee weapon from a ranged weapon, after 4 seconds you no longer take the huntsman bonus damage, allowing archers to go melee without being oneshot from huntsman.
+Fixed active parry blocking from behind
+Plate leg armor now doubles kick damage
+Kicks no longer have headshot damage
+Kicks no longer drain stamina
+Following up a feint with a stab will now have 50ms more lockout - this should fix most unpunishable stab feints
+1H Axe strike windup 25ms faster
+1H Axe recoveries reduced to 400ms
+Arming sword strike combo is now slightly faster and has a bit more raw damage
+Arming sword recoveries reduced to 400ms
+Warhammer recoveries reduced to 400ms
+Warhammer main mode strike torso damage increased by 5
+Quarterstaff now has 400ms recoveries
+Quarterstaff alt mode strike damage now the same as the main mode, strikes now have 75ms faster combo speed
+Maul miss recovery to 600ms
+Cleaver miss recoveries reduced to 400ms
+Cleaver stamina negation nerfed by 1
+Cleaver stab no longer flinches
+Cleaver now takes 20 stamina to chamber instead of 15
+Dagger miss recoveries reduced to 400ms
+Dagger now takes 20 stamina to chamber instead of 15
+Shortsword miss recoveries reduced to 400ms
+Shortsword stamina negation buffed by 3
+Shortsword now takes 20 stamina to chamber instead of 15
+Falchion miss recoveries reduced to 400ms
+Heavy Handaxe miss recoveries reduced to 500ms
+Mace strike windup 25ms faster
+Mace stab windup 50ms slower
+Mace miss recoveries to 600ms
+Rapier miss recoveries reduced to 400ms
+Bastard sword 1H stamina negation nerfed to 12
+Bastard sword 1H stamina on hit reduced to 6
+Bastard sword 2H miss recoveries reduced to 400ms
+Messer 2H miss recoveries reduced to 550ms
+Messer stab windup slowed down 25ms
+Shortspear miss recoveries to 600ms
+Shortspear can no longer combo
+Shortspear point cost reduced to 3
+Billhook strike pull distance increased
+Longsword stamina negation buffed to 13
+Longsword main mode miss recoveries reduced to 550ms
+Longsword main mode strike windup 15ms faster
+Longsword alt mode miss recoveries reduced to 400ms
+Longsword alt mode strike windup 25ms faster
+Estoc main mode miss recoveries reduced to 600ms
+Estoc main mode stab windup 25ms faster
+Chambering with Estoc now costs 10 stamina instead of 15
+Estoc alt mode miss recoveries reduced to 400ms
+War Axe miss recoveries reduced to 600ms
+Poleaxe main mode miss recoveries to 600ms
+Poleaxe main mode strike windup 25ms faster
+Poleaxe alt mode strike can now repair toolbox buildings
+Executioner sword stab headshot bonus damage removed
+Executioner sword miss recoveries increased to 800ms
+Bardiche main mode miss recoveries to 600ms
+Eveningstar alt mode miss recoveries to 600ms
+Spear main mode strike miss recovery to 800ms
+Spear main mode stab now has more hit knockback
+Halberd alt mode miss recoveries increased to 800ms
+Greatsword halfswording miss recovery for stab now 400ms, for strike 550ms
+Greatsword halfswording stab now has 25ms faster windup and 25ms faster combo
+Zweihander main mode stab 25ms slower and slightly stricter turncap
+Zweihander halfswording stab now has 25ms faster combo, miss recovery to 400ms, swing miss recovery to 550ms
+Quiver no longer has invisible movement debuff
+Horde shields no longer slow you down
+Raised initial fire damage very slightly
+Fire no longer damages buildings outside of the actual fire
+Adjusted 2H rock AOE structure damage
+Added two long beards and a moustache
+Players with the same name will now get a sequential number appended to the name, preventing confusion and abuse
+Characters will now start screaming when they're falling for longer than 1s, does not happen if you have the cat perk
+Added m.ShowServerInScoreboard (also found in options) which allows to disable the name showing up on scoreboard, useful to prevent stream sniping
+Friendly bear traps now show a marker when near
+Chain coat now takes metal color
+Fixed a dropped ladder mesh on Grad clipping the ground
+Fixed floating planks on HRD_Grad
+Darkened eyes on slitted kettle and sallet a bit
+Fixed motion blur settings on Feitoria
+Improved hitmarker sound on torso and leg hits
+Adjusted hitmarker sound
+Fixed Taiga performance drop
+Fixed texture streaming issues and performance drop associated with it
+Reverted the drag attack compensation change since it had unintended consequences
+Added new undercut drag prevention change to address this move specifically. This causes undercut drags that hit late to glance off, same with undercuts that were used to reverse hit enemies.
+Kick miss stamina cost reduced to 10
+Buffed archery projectile speeds (Recurve bow 5000 -> 5400, Longbow 5600 -> 6000, Crossbow 6100 -> 6500)
+Adjusted recurve bow sway significantly
+Adjusted longbow sway slightly
+Recurve bow now 1 point cheaper
+Fixed player name display appearing even when aiming a bit too far away from the player
+Fixed texture streaming issues and performance drop associated with it, for real this time
+Fixed dodge not working in some cases
+Adjusted catapult rock movement to be a bit shorter to avoid people shooting out of spawn protection
+Adjusted shield high block animation, no longer puts shields above head and now covers body more without extending forward too much which could be abused, fixes the broken looking blocks when a shielder is looking up
+Longsword strike main mode windup speed buffed 10ms (now 25ms total compared to patch 13)
+Billhook immobilize slowdown reduced from 50% to 40%
+Shortspear miss recoveries to 500ms
+Arming sword strike combo slowed down 25ms again
+Parry turncap slightly less strict
+Undercut glance now more lax, will trigger less on "normal" drags
+Reverted 5% global attack turncap change
+Huntsman window for receiving extra damage after you've switched from a ranged weapon reduced to 3 seconds (from 4)
+Fixed a bug involving certain objective barrels being catapulted
+Festivities
+Added second Grad Invasion variant, with blue being the attackers
+Added Crossroads Invasion map
+Reverted Catapult Nerf
+Split weapon bundle crates into two on and moved them closer to the attacker's spawn on Feitoria Invasion
+Added Fire pit for Toolbox, can be used to ignite arrows, catapult, ballista and deployable ballista projectiles
+Mortar projectile ragdolling radius reduced slightly
+Added Arming Sword basket hilt skin, 3 variations
+Added Brute Bardiche skin
+Added Mjolnir Maul skin
+Adjusted original maul skin scale as it was stretched
+Buckler/Targe can now be thrown by holding R
+Kick is now 10ms faster, drains 10 stamina on hit and can be parried
+Block/parry no longer forces slow kick
+Switching weapon modes is now 50ms faster
+Held block shields reworked - now have a longer timed parry as default. Held block can still be activated by holding R, has no knockback and very low stamina drain, but heavily slows down movement speed and greatly increases blocking turncap as well as having a raise/lowering recovery. Allows riposting, but no normal attacks.
+Kicks no longer have extra ghost range vs shields
+Jumping/climbing no longer cancels hp regen
+Reduced Max behind parry angle slightly to fix some extreme cases of backparries
+Fixed bug where ripostes would get stopped by a clash against a non riposte
+Removed general shield movement slowdowns
+Updated CombatTest map with some highly experimental combat changes, added SKM Variant
+Spear can now force rearing on horses when stabbing from the front
+Buffed spikes slightly
+Reverted billhook movement slowdown nerf. Now 50% again
+Updated German localization
+Siege tower score now ticks more frequently but awards less points on INV_Feitoria.
+Improved bandage use animation
+Improved lowerbody fall animation
+Fixed characters jittering up/down when standing on certain surfaces
+Increased score for objectives
+Blocks/parries/chambers now play a more bassy sound on top for the local player
+Raised time to start screaming due to falling from 1 to 1.25
+Removed Christmas stuff
+Added fortifications to Grad commander part
+Enabled texture streaming amortization options by default to improve performance. Will significantly reduce stutters on some (older) computers
+Reverted backparry change from previous patch fixing the attacks going through parry in cases where enemies were 90 degrees to the side from the player
+Fixed attacks going through parry on active parry and chambers where enemies were 90 degrees to the side from the player (same as above, but was in place since release)
+Improved stab windup animations to see transition to release easier (does not show up for self)
+Third person Feint animations are now slightly more snappy/responsive
+Global feint lockout increased 25ms, this will make feint punishing easier
+Parry recovery increased 25ms
+Chambering will now disarm like a parry when on low stamina, meaning you can no longer chamber at 1 stamina without being disarmed
+Disabled team hitstop for strikes (Experimental)
+Morph to kick 15ms faster
+Added jump kicks
+Throwables and ranged equipment can now kick
+Throwables can now be used on ladders
+Shield wall now has a longer raising/lowering delay to prevent abuse in duels
+Players can now riposte out of the shield wall at any time, even without blocking
+Shield wall stab riposte animation now comes from the same side, making it a bit harder to read
+Shield wall shields now have 1 less stamina negation, but 25ms more parry window (50ms more total compared to regular parry)
+Shield model now acts as blocking collider during ripostes, buffing their ability to 1vX
+Shield wall turncap more lax
+Shield wall movement speed increased to 66% (from 50%)
+Couch no longer disarms
+Removed previous CombatTest changes, CombatTest now has experimental movement on it. Added SKM variant.
+Executioner sword turncaps nerfed. Now more strict
+Zweihander main mode stab windup slowed down 25ms
+Bastard Sword 1H strike release reduced 25ms
+Greatsword main mode stab release reduced 25ms
+Bardiche main mode now 15cm longer
+Maul stamina drain on strike increased by 1
+Estoc main mode stab combo 50ms faster
+Poleaxe all windups 25ms faster
+Shortspear stab windup 25ms faster
+Shortspear miss recoveries reduced to 400ms
+Shortspear throw now 250ms faster
+Increased blunt slowdown on hit slightly (Tier 1 12.5 -> 15%, Tier 2 25% -> 30%)
+Increased Recurve Bow damage against Tier 2 and Tier 3 chest (4HTK instead of 5HTK)
+Improved Bow 1p firing animations, making it more snappy/satisfying to shoot
+Adjusted longbow sway slightly
+Buffed Crossbow and Longbow projectile speed very slightly
+Throwing knifes now throw faster
+Throwing knife can now be equipped slightly faster
+Throwing Axe can now be thrown twice in a row faster
+Throwing Axe proj speed slightly faster
+Tier 2 Chest now has the same speed as Tier 1 Chest, making it a straight upgrade
+Slowed down shield throws and reduced their damage
+Deliverable despawn time from 20s to 30s
+Throwable two handed rock now throws faster
+Throwable shields now get thrown with LMB if nothing is in the right hand.
+Fixed pavise planting not working on LMB anymore
+Toolbox structures now build faster across the board
+Fixed a bug where invasion actually counted 'tickets' for deaths and could cause loss if a team died more than 1000 times
+Fixed the case where ladders would be climbed while holding because someone got onto it
+Tightened collision on footsoldier wagon and king wagon
+Fixed wonky skinning on splinted arms
+Improved fall damage camera shake
+Console key can now be bound in options
+Feitoria gate can't interrupt open but can interrupt closing
+Added new map: Castello
+Added Mountain Peak expansion and new Invasion map
+Added Vanguard's Kettle helmet and variations
+Added The Fallen's Longsword skin
+Added Court Minstrel's Lute skin
+Added Spectacles wearable
+Added Eye patch wearable
+Added Cleaver skin set
+Added Battle Axe skin set
+Added Hunter's Estoc skin
+Added Hunter Hat and Scout hat variant
+Added Hunter's brutal Crossbow skin
+Added Heavy barbute wearable
+Added Crowned heavy barbute wearable
+Added Crown wearable
+Added Raider's Greatsword skin
+Added Velvet pauldrons
+Added Elizabethan leg armor
+Added Elizabethan sabatons
+Added Plague doctor mask
+Skirmish no longer has health regeneration
+Buffed Noble on Crossroads and caravan door, lowered time to complete map
+Added HP on kill for Iron company Grad commander
+Kills and assists near objectives for defenders now award 50 objective points
+Implemented duel mode MMR hiding if inactive (will show unranked)
+Split Invasion and Frontline matchmaking
+Invasion Taiga attacker time reduced from 15 minutes to 12 minutes, bonus time for each completed objective reduced from 5 minutes to 3 minutes
+Added toolbox radius check for all toolbox placeables
+Nobles no longer have knockback when inactive (prevents kicking them around)
+Fix for various invisibility exploits
+Re-added team hitstop
+Movement now slightly more weighty/grounded and less jumpy
+Reduced knockback across the board
+Reduced lunge across the board slightly - this will make combat cleaner and less "slide-y" across the board
+Stab feint & Stab combo feint windows reduced 25ms
+Stab early release increased very slightly
+Slowed down stand to crouch very slightly
+Jump kick now 25ms slower than regular kick, no longer drains stamina but keeps momentum from the movement speed (no longer slows down suddenly)
+Riposte chamber window is now the same as regular chamber
+Removed overpower from non-shield ripostes, shields still have it
+Ripostes no longer clash with non-ripostes
+Added riposte hyperarmor - this means hitting someone who is riposting will hitstop your attack and force a short (300ms) lockout from parrying, preventing players from spamming attacks into a riposting player and instantly parrying their riposte hit trade. This will buff 1vX.
+Shield wall ripostes can now be flinched (additional tweaks to shield wall will come in the future)
+Can now parry out of shield wall ripostes like regular ripostes
+Shield wall can now be lowered instantly with no recovery, allowing players to cancel them and start a normal attack or tap parry to get normal ripostes. This means you can also instantly parry during the raising of shield wall, or parry incoming jump kicks, aswell as getting regular hit trade ripostes by parrying.
+Forward parry now disabled for teammates (will reduce range of parries of teammates, making it easier to hit around)
+Kick feint followups now apply stab/strike lockouts like normal feints (fixes cases where kick followups could be used to bypass feint lockouts for stab/strikes)
+Fixed shieldwall not draining stamina correctly on riposting out of it
+Added a small knockback bump when landing on someone
+Horse force rearing angle increased so it actually works now
+Ladder raise/drop time reduced to 2 seconds
+Chase mechanic can no longer be broken by abusing specific movement strafe combinations (This was a very specific technique to cheese the chase mechanic and will not affect the vast majority)
+Chase mechanic activation time now 100ms faster (500ms -> 400ms)
+Removed front chase mechanic from the game (was active on players holding ranged weapons or toolbox, throwables in hands)
+Combattest: Added experimental blending time derivation based on pose analysis: this will automatically find blend values and lower/raise them based on animations the character is in, fixing ugly snaps in certain animation combinations and making some animations more responsive, making them less hidden.
+Combattest: Added new mechanic that fixes/improves missing on purpose/combo misses - aiming at enemy attack tracers when parrying will now give a much faster parry recovery when it detects an attack recovery/release/missed combo windup/environment hit (includes team hitstop) - uses a modified parry box to detect and is easy to trigger, currenly has no sound or obvious indicator
+Combattest: Added riposte feint (not the final iteration as it needs animation changes)
+Combattest: Attack recoveries can now be parried and will now thud when hitting characters, reducing clipping and reducing lockouts, will still count as a miss on thud
+Combattest: Increased feint lockout & regular parry recovery slightly for more punishable feints
+Point system changed to 48 points (point costs are raised proportionally) - this will allow for finer balance between equipment, armor and perk costs and make the armory more sandboxy
+Added heavy weight debuff - this is a new weapon attribute that will slow down the player by 20 units when holding a weapon in hand that has this debuff. Right now applies to Zweihander, Spear and Halberd and Polehammer in the future. This slowdown only affects walk and partial sprint speed (combat movement speed) and not maximum sprint speed for map traversal.
+Medium chest now 2.5% slower - still faster than before the buff
+Plate helmet now 1% faster
+Plate torso now 1% faster
+Light head now 1% slower
+Light chest now 0.5% slower (overall this will reduce the movement speed disparity between the extremes very very slightly)
+Leg armor is now cheaper than head and chest armor across the board - this will give points to loadouts using heavy, medium or light leg armor
+Shortsword, Quarterstaff, Lute, Trainingsword, Bandage, Dagger, Axe, Beartrap, Mallet, Blacksmith Hammer, Pavise, Rocks, Smoke Bomb, Throwing Axes, Throwing Knives and Warhammer are now cheaper
+Falchion now slightly cheaper
+Billhook now slightly cheaper
+Perks - Brawler, Fury, Tenacious, Scavenger, Friendly are now cheaper
+Flesh wound perk now more expensive
+Bear trap ignores horse armor now (dealing more damage to horses overall)
+Poleaxe, Shortspear and Halberd stab can now force rearing against horses
+Shortsword stamina negation nerfed
+Zweihander is now cheaper - point cost reduced to 27 (9)
+Zweihander now has heavy weight debuff
+Zweihander main mode strike turncap more strict
+Zweihander strike can no longer 2HTK plate helmet
+Zweihander stab can now 3HTK plate legs
+Zweihander alt mode strike damage buffed
+Longsword now slightly cheaper
+Longsword main mode strike stamina drain increased by 1
+Longsword main mode combo into stab 25ms faster
+Mace now slightly cheaper
+Mace strike headshot damage increased significantly
+Mace stab now 25ms slower
+Spear is now cheaper - point cost reduced to 27 (9)
+Spear now has heavy weight debuff
+Spear can now 3HTK plate legs with stab
+Spear main mode stamina negation increased by 1
+Spear stab stamina drain increased on both modes
+Greatsword strike & stab turncaps now slightly more strict on main mode
+Halberd is now cheaper - Point cost reduced to 27 (9)
+Halberd now has heavy weight debuff
+Halberd strikes can no longer 2HTK plate helmet
+Halberd main mode strike turncap slightly more strict
+Halberd main mode combos 25ms faster
+Halberd main mode strike stamina drain increased by 1
+Halberd alt mode strike now has the same damage as main mode (reduces bonus headshot damage slightly)
+Halberd stabs can now 3 HTK plate legs
+Halberd damage vs medium chest increased by 5 on all attacks
+Battle Axe main mode strike combo now faster
+Battle Axe main mode strike turncaps more strict
+Battle Axe point cost reduced to 15 (5)
+Battle Axe raw damage against plate armor reduced slightly (same HTK's, just slightly less extra damage)
+War Axe raw damage against plate armor reduced slightly (same HTK's, just slightly less extra damage)
+Poleaxe now 5cm longer
+Executioner sword raw damage against plate armor reduced slightly (same HTK's, just slightly less extra damage)
+Eveningstar point cost reduced to 21 (7)
+Eveningstar alt mode strike now has the same damage as main mode strike
+Eveningstar raw damage against plate armor reduced slightly (same HTK's, just slightly less extra damage)
+Eveningstar strike turncap slightly more strict
+Bardiche alt mode bonus damage vs plate helmet removed (same HTKs)
+Bardiche strike turncaps slightly more strict
+Bardiche main mode stab 25ms slower
+Removed crossbow sway
+Crossbow headshot damage vs armored increased by 5
+Heavy Handaxe reworked a bit - now faster and less floaty, needs 2 headshots to 2 HTK plate head and reduced alt mode damage across the board so it is mainly for repairing now
+Sledgehammer can now repair wood with stab, strike now deals more wood and stone damage
+Throwable rocks can now be thrown and reloaded faster
+Cleaver stab now flinches again, but has 25ms slower windup and no stamina on hit
+1H Bastard sword strike/stab stamina on hit reduced to 5 (from 6)
+1H Messer strike turncap slightly more strict
+Messer strike damage against plate helmet reduced slightly, can no longer 2HTK
+Rapier strike/stab stamina on hit reduced to 5
+Arming sword stamina on hit reduced to 5
+Shortspear stab 25ms faster windup
+Shortspear stab damage increased
+Shortspear stab stamina drain increased by 1
+Shortspear strike stamina drain reduced by 2
+Shortspear strike stamina on hit reduced to 5
+Maul strike stamina drain reduced by 1
+Estoc main mode stab damage vs plate legs increased
+Estoc main mode stab turncap slightly more strict
+Estoc alt mode strike turncap slightly more strict
+Estoc alt mode strike leg damage fixed
+Smoke bomb throw now faster
+Deploy ballista now assists for builder if teammates use it to kill others
+Training sword chambers now cost stamina
+Updated mod.io plugin - fixes some issues with mod downloads
+Lowered maile hood now allows beards for head variants
+Added hold interact animations
+Fixed River exploit on feitoria
+Fixed AI sometimes not switching to melee from ranged since last patch (usually in horde)
+AI will now backpedal if acting defensive but not parrying yet
+Fixed some instances of AI super quickly switching targets and jittering as a result
+Grad commander no longer has knockback to prevent abuse
+Improved Mountain Peak visuals
+Ear hiding is now adjusted per helmet and more fitting
+Fixed Catapult spawn grounding clipping into the ground
+Small fixes and adjustments for Feitoria & Taiga baselevel & assets
+Improved climbing animation blending
+Improved forearm twisting
+Less violent start/stop bounce when stopping movement (less crazy bumping forward and backward when suddenly stopping)
+Slightly adjusted fade distance of the big blood pools to be same as the smaller ones
+Changed how slow-climbs are forced, before it forced slow climb when in air, but now it actually checks how far off the ground the character is and how fast he's falling to determine whether a slow climb is necessary. This fixes cases where the character would sometimes do the slow pullup climb on objects that are very small and near the ground.
+Can now climb on thin objects consistently as a vault
+Added m.cinematiccamera console command can be between 0 and 1, usually some low value (default is disabled, 0) to enable 'cinematic' camera
+M.headbob above 1 is now also used for non-cosmetic headbobs (like hits/parries)
+Fixed a bug that caused some players to get disconnected from a server after a map change
+Reworked how match rewards are handled so playtime can be rewarded for interrupted matches after a timeout period
+Fixed vote map screen only showing 5 maps instead of 6 in certain conditions
+Fixed join queue detecting servers with open slots as being full in some cases
+Fixed projectiles stickying to parry box for shields (e.g. doing a tap parry and having the proj sticky in the air), it now only stickies if it hits the shield
+Improved hit indicator sound
+Hit indicator volume now gets adjusted with "Effects" volume slider
+Improved arrow impact sounds
+Improved blocking/parry sounds
+Improved foley sounds
+Improved mode switch sound
+Improved melee hit sounds
+Improved equip sounds
+Added duel leaderboards
+Added dropdown to Player Menu where the user can select which rank they want to be displayed (duel rank or casual level)
+Added health bar to view targets (when aiming at a player)
+Added crosshair type dropdown (melee (angle) and ranged, melee (no angle), ranged, ranged only, none)
+Added improved objective hint display in frontline and invasion, toggle can be found in game settings
+Added server Message Of The Day popup, can be set in Game.ini on the server: [/Script/Mordhau.MordhauGameMode]
+MOTDURL="http://www.google.com"
+Added SpawnServerActorsOnMapLoad to Game.ini under MordhauGameMode, an array of strings of paths to actors to spawn on a dedicated server on map start. Useful as a hook for modders.
+Added team color preview to armory (wearables tab)
+Added button to Frontline and Invasion spawn menu which opens the mercenary list
+Added subtle color gradient to equipment entry categories
+Added slight shadow to floating HUD markers, improving visibility
+Added interact widget to delivery spawns
+Replaced matchmaking tile images with the winning contest shots
+Two team scoreboard now inherits team colors from GameState (handy for modders)
+Improved interact widget progress visibility
+Skirmish now flashes the window/taskbar when a new round starts
+Pressing spacebar (or enter) in the spawn menu will now spawn you at the selected spawn point
+Decreased duration of the crosshair parry shield animation to more accurately match the parry window
+Updated armory point bar to 48 segments
+Fixed "Toggle UI Markers" bind not working (you might need to rebind it)
+Fixed translated text breaking armor entry
+Toolbox placement checks adjusted to be less strict
+Fixed Horde and BR server crash bug
+Fixed Mountain Peak battering ram not appearing if joining mid game
+Adjusted Crossroads door hitpoints
+Crossroads king no longer has chip damage but now has clash on parry
+Fixed engineer wall causing you to get stuck if jumping/walking on it
+Castello king no longer has knockback on parry or clash
+Friendly damage no longer stops health regeneration
+Friendly melee hits no longer flinch parry
+Bandage and medkit are now banned equipment in Skirmish
+Covered flat top no longer allows kettle helmet
+Heavy barbute no longer flattens nose
+Metal detail on Gothic chest no longer overrides with teamcolor
+Server mod initialization now provides feedback on the mod download process to server owners in the console
+Fixes for Feitoria nobles visually glitching
+Fixed infinite "please wait" screen
+Fixed clients not logging back in after their session expires
+Reduced parry bass component volume a little
+Duel leaderboards now show top 100 instead of top 20
+Fixed deathmatch scoreboard entry alignment
+Fixed wearable tooltip displaying incorrect cost value
+Firebombs will only restock 1 at a time from an ammo box
+Fire and smoke fields now annihilate each other if they touch
+Pavise shields are now limited to max 5 per player
+Skirmish regen turned back on, banned healing items reverted
+Mountain peak rebalanced with progressive spawns on ram push objective, more interracts on ram objective and slightly stronger king. The cauldrons now go away after the ram objective.
+Crossroads king health on kill increased
+Castello buffed for attackers for the first and second objective with more paths and easier cart push, spawns moved around for the last two objectives.
+Feitoria Made slightly harder second and first stage by moving about kill objectives and slowing down the siege tower.
+Feitoria ladders now mostly droppable, even in the city.
+Fixes for crashing on startup due to mods
+Added server-side config variables for bIsThirdPersonCameraDisabled, ConstrainAspectRatio (e.g. 1.7777777), bIsHitStopOnTeamHitsDisabled (these go under [/Script/Mordhau.MordhauGameMode])
+Velvet Shoulder LODs
+Several fixes for rewards not showing up at the end of a match
+Fixed a bug which caused servers not to retry dealing out rewards after a backend timeout
+Removed hardcoded player limit for servers
+New asset for the environment plank
+Various collision fixes on Castello
+Added scoreboard tab to main menu and added contextual actions to entry selection (view profile, chat mute, votekick, admin kick, admin mute, admin ban)
+Moved duel leaderboards into the matchmaking screen
+Brought back the return button to the main menu
+Fire bombs are now restricted to one per loadout
+Fixed restocking not working if you don't have an item in that slot in your loadout
+Fixed King objectives not ending the objective when they left the game
+Castello first objective buffed significantly for attackers
+Castello Portcullis raise speed lowered
+Fixed spawns on the 4th objective on Castello that were not working due to ground clipping, as well as adjusted attacker spawns on the 5th objective
+Moved all Castello spawns for defenders on the first objective to ground level
+Players can now climb the cart on Castello
+Changed Mountain Peak ram interactions 10->12, and required torch deliveries 7->8 per pile
+Adjusted objective score rewards on ram objectives for Mountain Peak (Frontline & Invasion)
+Feitoria weapon bundle objective now has less weight, killables are now more biased towards the defenders
+INV_Grad_0 first objective adjusted slightly, burning buildings now gives less progress and blue spawn moved a few meters closer
+INV_Grad_1 rebalance, made all objectives besides the first a bit harder for attackers with adjustments to spawn positions and time bonuses
+Fixed tutorial horse dying if you get off it and leave it for a while
+Fixed BR_Taiga not working
+CPU performance optimizations, especially on high player counts
+Color tables fixed for some pieces
+Enabled density scaling for Castello foliage.
+Disabled third person perspective in ranked duels
+Displayed rank now clamped in certain edge cases
+Target info health bar and crosshair color is now green on friendlies
+Fixed Tourney not showing up in map list
+The best matchmaking region is now determined on launch if it was previously set to worldwide
+Servers are now split into 48 and 80 player servers in Europe and North America. Players can now select their desired playercount via checkboxes in the matchmaker
+Added new weapon: Polehammer
+Added new shield: Round Shield
+Added German sallet & variations
+Added Swiss saber skin set for the messer
+Added Archer's sallet
+Added Archer's bracer with variations
+Added Italian armet with 7 variations
+Added Short poleaxe skin for heavy handaxe
+Added Knightly coat of plates
+Added two new maille over gambeson skirts
+Added Hauberk
+Added Reinforced greathelm & winged variant
+Added Italian rapier & Decorated Italian rapier skins
+Added Savoyard helmet & variations
+Added Cuirassier arms, pauldrons & gauntlets
+Added Joined hosen & variations
+Added Clad veteran chest
+Added heater shield skin
+Added targe shield skin
+Added short maille sleeves over cloth
+Added hood under helmet as head and/or coif slots
+Readjusted Elizabethan Legs
+Allowed for some missing combinations with the existing armory
+Duel mode no longer allows bandages, medkit and flesh wound. Disabled health regen in duel mode. From now on certain perks will be banned in ranked play and we recommend competitive players to copy these rules.
+You can now select loadouts with banned equipment/perks, those will be removed/disabled on spawn instead.
+Updated mod.io plugin
+Many fixes to mod downloads, should fix problems with joining modded servers
+Server admins of modded servers no longer need to specify ServerModAuthToken and subscribe to mods, instead mods are installed by adding a Mods=<Mod ID> line for each mod under the [/Script/Mordhau.MordhauGameSession] ini section
+Improvements to backend, improving the gold/xp situation and community server stability
+Bots can now use ladders
+Bots can now climb surfaces
+Added new Miss detector 5000 - this is a new mechanic that will detect misses of enemies while the player is in the parry window and reduce the parry recovery by a huge amount, sending the player to idle much quicker. Plays a sound and faster animation when it triggers. Heavily nerfs missing on purpose in 1vX scenarios and fixes unparryable miss combos in 1v1.
+Added new glancing blow calculation based on who players parried - this will remove spinning with ripostes from duels and make those spins glance now, without affecting teamplay or target switching.
+Maximum lunge reduced by 15cm (15ms) - this makes 120cm the new maximum and means that every weapon shorter than 120cm had its lunge reduced very slightly
+Maximum strike release reduced 25ms, making 500ms the new max. This means weapons with 525ms strike release now have 500ms strike release. Only affects 525ms release weapons. Reduces float.
+Parry window reduced 15ms (recovery increased with 10ms ontop, total parry time now 950ms up from 940ms - also nerfs double parries very slightly)
+Strike chamber window reduced 15ms
+Stab chamber window reduced 10ms
+Strike riposte early release increased 1% (Makes riposte accels hit very slightly slower)
+Reduced knockback across the board
+Chase mechanic activation time increased 100ms (0.4 -> 0.5)
+Undercut glance reduced 5%
+Kicks now ignore hand hitboxes again, fixing "hand kicks" for good
+Slow kick timer is no longer bound to feint lockout and now uses a global 450ms timer instead across all weapons. This should fix very fast kicks right after a feint on slower weapons.
+Jump kick slowed down 75ms
+Jump kick can no longer be feinted
+Morph to kick slowed down 25ms
+Kicks now have bonus damage on headshots again (5)
+Disarms now force slow kick for a short time
+Third person camera changed to a centered view
+Better spawn invulnerability, fixes dying to trebuchets etc.
+Updated CombatTest - now has experimental buckler rework and two new prototype weapons, fix for backparries, experimental new chase mechanic & more
+Added second combat test map (CombatTest_Casual) with new, more fluid experimental combat based around timed parry with a very short recovery. Full description on the map.
+Heater, Kite and Round shield now have a significantly bigger parry window compared to regular parry (115ms bigger), making them much stronger against drags etc. Stamina negation has been reduced.
+Shield wall turncap is now less strict, shield wall movement speed now faster
+Shields now cover less of the screen in first person
+Firepot fire now slightly bigger, covers a round area
+Firepot direct hit damage buffed to 10 (from 5)
+Firepot wood damage increased 35% (one pot will now fully destroy toolbox walls that are not being repaired instead of leaving them standing at low health)
+Firepot now starts damage 150ms faster (1.5s -> 1.35s)
+Maul raw damage to armored torsos (T2,T3) reduced by 10
+Maul miss recovery on strike and stab increased 100ms
+Halberd main mode combos 25ms faster
+Halberd alt mode strike damage increased by 2 across the board
+Halberd now cheaper
+Battle Axe main mode strike damage against plate torso increased to 45
+Longsword main mode strike windup slowed down 10ms
+Estoc chamber stamina cost raised to 15 (from 10)
+Estoc stab turncap now slightly more strict
+Arming sword stamina drain reduced slightly
+Rapier strike release reduced 25ms
+Shortspear range reduced 5cm
+Shortspear stab windup slowed down 25ms
+Shortspear stab stamina drain reduced by 1
+Reduced sledgehammer stamina drain slightly
+Smith perk repair bonus reduced to 33% from 50%
+Friendly perk reduced to 1 point cost
+Tenacious perk reduced to 1 point cost
+Wrecker perk cost reduced to 2 points
+Scavenger point cost increased to 2 points
+Flesh wound buffed, no longer sets stamina to 0
+Fixed shovel leg damage
+Toolbox can no longer build directly around players/vehicles
+Added 4 emotes, Point, Wave, Thumbs Up, Thumbs Down.
+Fixed server-side constrain aspect ratio setting messing with FOV
+Fixed exploit relating to 1p/3p camera switch spam
+Fixed some cases of camera mode being remembered wrong on deaths
+Several collision fixes on maps
+Smoothed out failed parry animation slightly
+Improved shield riposte blending
+Fixed lute ragdoll physics appearing jittery on clients
+Reworked how equipment physics are replicated to clients, ensuring better behavior and less oddities like teleporting on death in some instances
+Bots now turn smoother and jitter less
+Bots now face movement during attacks if out of range, prevents awkward strafing when not close enough
+Lowered bot turd spam in Horde
+Fixed bots super-slowly sliding off of edges when trying to drop down
+Fixed Elizabethan legs proportions, making them less skinny
+Fixed Horde bug/exploit with keeping armor
+Fixed jump on head causing crazy knockback
+Fixed mouse smoothing affecting bots in certain cases
+Feitoria - Placed out of bounds volumes on top of the bunk beds, so VIPs don't camp there. Placed ~20 new random weapons and utility items on the map. Added a ladder behind the big house near the port, so there are more ways to get inside. Pushed the last stage INV blue spawns back a bit (right side). On FL pushed the blue castle spawns so they are now behind/inside the town hall. FL red team spawns a bit closer (2nd point). Fixed a dozen stuck spots and adjusted some volumes.
+Several changes to Castello to improve gameplay
+Added slightly more hit freeze effect at end of attack hits
+Lots of server CPU optimizations
+Lots of client CPU optimizations
+Added experimental new anim/code LOD bucketing system m.CharLODAnimNew 1 in console to enable, handles characters that are further away better by rescaling the buckets
+Added experimental character lod occlusion system m.characterLODOcclusion 1 to enable, reduces quality of heavily occluded characters, best combined with new anim LOD above
+Added several map optimizations
+Increased volume of enemy footsteps slightly
+New skins will now appear with an exclamation icon in the armory until the user views them
+Added HUD button prompts to equipment, vehicles, etc (can be disabled by toggling tips in game settings)
+Added server mute duration indicator to chat box (appears only when server muted by an admin)
+Updated post match screen, allowing chat and scoreboard use in the end screen
+Added warning icon to banned loadouts - banned loadouts can now be selected and edited, spawning with one removes banned items
+Removed green health bar from allies
+Menu scoreboard mute/kick/ban dialogs now show selected player's name as hint text
+Potential fix for suicidal horde bots on Feitoria docks
+Moved a Horde spawn point on Camp
+Adjusted first objective spawn protection on INV_Camp_1
+Tweaked spawn protection of 2nd and 3rd objective on INV_Castello_0
+Added dinner table to INV_Crossroads_0, food is locked to the noble and is accessible about halfway through the level
+Fixed lift hole on Grad
+Added a missing collision to Castello keep middle floor, as well as some pillars outside
+Adjusted SKM_Castello blocking volume
+MountainPeak fix for stuck icicles and missing interior doorway collision
+Admin mute is now available in the chat context menu when logged in
+Potential fix for scoreboard admin actions bug
+Tweaked gamemode tiles
+Fixed overlapping button prompts
+Updated friendly marker
+Fixed a condition where rewards could get discarded prematurely
+Fixed fire pit being placeable inside vehicles causing them to be bumped
+Fixed default mesh for polehammer showing up in some cases
+Fixed shields being allowed to feint the shieldwall raise (which led to other exploits) -- can still parry while it's coming up
+Fixed received knockback for some nobles being wrong
+Fixed halberd and polehammer alt clash boxes being offset and trail direction being incorrect
+Fixed spawn screen not updating when new capture point is secured
+Can no longer kick if either leg is disabled (fleshwound)
+Fix for replays having broken focusing on players
+Added purchaseable Polehammers and Round Shields to all Horde maps
+Added Polehammer and Round Shield to Horde chest drop tables
+Added Polehammer and Round Shield to BR chest drop tables
+Added Teamfight mode - 3v3 Ranked
+Ranked servers are now 120 tick (previously 60 tick)
+Added Brawl mixed playlist consisting of 16-player Deathmatch, Team Deathmatch and Skirmish, which replaces Battle Royale on the quick play screen
+Added new map: Arena
+Added new map: Truce
+Added new weapon: Falx
+Added 60+ new cosmetics
+Added 6 new perks: Mule, Butcher, Stun, Supplied, Tank, Dwarf
+Implemented new look smoothing for characters which significantly reduces spinning and janky looking movements
+Implemented backparry reduction - reduces parries from the back and makes hitting backs and sides easier (also affects chambers and active parry)
+Parry window increased 15ms (Recovery reduced 15ms, same total time)
+Improved stab animations & values to be more readable and less instant
+Lunge reduced globally & is now the same for all weapons
+Global knockback reduced 5%
+Global movement speed reduced 3%
+Reduced maximum undercut and lower stab angle by 12 degrees
+Miss detector range increased
+Hitting the world environment now drains stamina, half of a normal miss
+Kicks no longer have active parry (fixes kicks out of shield wall overpowering regular kicks)
+Ripostes can no longer chamber
+Ripostes no longer clash with other ripostes (rare case that messed up target switches)
+Nobles no longer hitstop when they hit teammates
+Crouch slowed down by 50ms
+Crouch slight cooldown added to prevent spam and macros
+Parry into parry stamina gain window increased 100ms
+Couch chip damage on parry removed
+Experimental CombatTest map: Added new mechanic to nerf chamber FTP
+Experimental CombatTest map: Added scimitar prototype
+Firepot duration reduced 2 seconds to 8 total, wood damage slightly buffed to compensate
+Zweihander main mode strike damage vs tier 3 helmet increased to 50
+Zweihander main mode strike damage vs tier 1 torso and legs increased
+Zweihander now costs 24 points
+Eveningstar alt mode reduced stab release
+War Axe range increased 5cm
+War Axe can now be thrown
+Maul throw reworked, now uses same throw as War Axe
+Pickaxe, Sledgehammer and 2H Club can now be thrown
+Estoc main mode stab windup slowed down 25ms
+Estoc main mode stab release reduced 15ms
+Estoc main mode stab turncap now slightly more strict
+Greatsword main mode stab turncap now slightly more strict
+Reduced stamina drain very slightly on Arming sword, 1H Axe, Bastard sword, Dagger, Rapier, Shortsword, 1H Messer and Shortspear
+Shortspear miss recoveries increased 50ms
+Longsword main mode strike windup slowed down 25ms
+Longsword main mode turncaps more strict
+Messer strike windups slowed down 15ms
+Messer "phantom" range fixed
+Poleaxe alt mode strike windup slowed down 25ms
+Cleaver strike windup slowed down 25ms
+Polehammer range increased 10cm
+Polehammer damage buffed slightly across the board
+Polehammer strike windups now 25ms faster
+Polehammer miss recoveries reduced 100ms
+Polehammer now costs 24 points
+Polehammer now has very heavy weight when equipped in hands, slowing down more than any other equipment in the game (~ -9.5%)
+Removed knockback from 2H throwable rocks, fixing the case of players being pushed away several meters
+Reduced shield wall movement speed reduction
+Round shield extra parry window reduced very slightly by 15ms (115ms -> 100ms)
+Round shield stamina negation nerfed to 10
+Round shield now has heavy weight when equipped in hands (- ~6.3%)
+Kite shield reworked - now has 12 stamina negation, medium weight when equipped in hands (- ~3.15%) and 50ms increased parry window (instead of 100ms previously)
+Heater shield reworked - now has great stamina negation (13) but no more increased parry window, making it work similar to the Targe but with a shield wall instead of the throw
+Targe now cheaper, cost reduced to 5
+Buffed shield throw damage slightly
+Shield wall now has the same stamina drain as regular shield parries
+Shield wall now has parry into parry stamina gain enabled, overall making it weaker in 1v1 but buffed for 1vX
+No quiver ammo increased across the board
+Disabled emoting with objective equipment
+Fixed couch being too fast on certain weapons
+10 bascinet helmets & variations including 3 different styles and plumes
+New black sallet helmet with 9 variations
+Valsgarde vendel era helmet with 5 variations
+Bag hat
+New coif options: Fringed hood & lined aventail
+3 new Italian pauldron options & brigandine spaulders shoulder options
+Corazzina T2 torso
+4 new T3 chest plates including breastplate over jupon, burgundian cuirasses and kasten brust with 3 unique skirt options
+5 new arm cosmetics: jupon arms, jack chains, 2 italian plate arm variations and short maille sleeve over plate
+New italian gauntlets with 3 different configurations
+New set of legs with 3 variations for T2 and 2 versions for T3
+Scale sabatons with and without spurs
+Shortsword skin: Seax and its decorated version
+Throwing axe skin: Francisca
+Spear skin: Swordstaff
+Updated & improved matchmaking system
+Emblems are now forced to team colors when in team modes
+Updated tutorial to fix outdated information
+Adjustments to the logic for toolbox buildings and beartraps placement inside no-build zones
+Fixed Pickaxe finger clipping
+Engineer Ballista no longer kills the person using it if the engineer respawns without a toolbox
+Fixed a bug that was causing invisible equipment sticky in 1p causing a failed pickup action
+Fixed head tracking not working in game
+Fixed spectator cam going to armory/map screen location if you died while there or went there during deathcam
+Various map optimizations and improvements
+Various backend improvements
+New lighting on contraband
+Improved how mod downloads work which now ensures even already installed mods will update correctly and removes the need for players to wipe the downloaded mods themselves
+Fixed Baron's cutter color tables
+Fixed up various physics assets to prevent weapons clipping into the ground
+Significantly improved start-up loading time
+Increased volume of enemy footsteps slightly
+Cruel Knight voice volume adjusted
+Fixed a bug that allowed players to bypass the voice command cooldown
+Updated matchmaking screen
+Updated scoreboard
+Updated ranked modes HUD
+Players can now choose to display 1v1 or 3v3 rank
+Server browser now supports sorting by ping, player count, server name and map name
+Server browser favoriting now works
+Modded servers can now be filtered and have a marker in the server browser
+Delivery spots no longer hide UI widgets until you have a deliverable, making it easier to see what needs burning etc.
+Duel/3v3 will now spawn as 1st default class if nothing is selected
+Fixed backend requests not being sent due to wrong system time
+Fixed Teamfight MMR calculations awarding/taking wrong amounts of MMR
+Various matchmaking bug fixes
+Fixed slight OoB's issue on TDM Arena
+Changed shadow settings on Arena to match the other map
+Scoreboard entry death overlay slightly more translucent
+Castello invisible spikes on balcony removed
+Fixed crowd booing while waiting for players
+Adjusted crowd LOD distances.
+Potential fix for party members joining an empty lobby
+Increased matchmaking timeout from 20s to 40s
+Fixed bug that could cause some matchmaking functions to run out of order
+Added projectile blockers to the sides of Truce spawns
+Teamfight spawn distance on Truce now same as on Arena
+Adjusted slow look smoothing in ranged release
+Fixed thrown weapons not switching to slots at position > 3 after depleted
+Implemented ranked Teamfight matchmaking progressive ban penalties for leaving, only takes effect if you're the first person to leave the match
+Raised Duel and Teamfight waiting for players time by 5s (from 30s to 35s) to help with late loaders
+Raised Duel and Teamfight round start timer to 5s, allowing more time to switch loadouts between matches
+Fixed a case where you could load onto a Duel/Teamfight match that would then load a new map
+Fixed Duel/Teamfight not giving gold under certain circumstances
+Fixed party member MMR value not being set correctly under certain circumstances
+Increased Duel/Teamfight gold rewards
+Fixed floaty Firepot on HRD_Castello.
+Added Falx to all Horde maps.
+Added Falx to T3 Horde gamble chest.
+Fixed several bugs with Duel and Teamfight related to MMR gain/loss
+Added input mappings for raise/lower catapult arm
+Nobles can no longer get kicked for teamkilling (previously worked in some cases, but not in all)
+Changed arrow mesh on Arena to have no collision
+Stuckspot fix on MountainPeak, as well as some minor lightmap optimizations.
+Fixed instructor not opening the door for himself in the tutorial
+Added two new cloth colors
+Added cloth skirts to kasten brust faulds and scale skirts to assist in team identification
+Fixed problems with the meshes and skinning of Brigandine Spaulders, Mail Over Plate arms and all 3 variations of Italian Gauntlets
+Added a new colormask pattern to the bascinets introduced in Patch #19
+Renamed joupon to jupon
+Adjusted black sallet star painted pattern
+Fixed community servers always displaying Teamfight rank instead of Duel rank even if Duel rank display was selected
+Fixed duel/teamfight scoreboard entries having missing context menu items
+Separated region selection for casual and ranked matchmaking
+Potential fix for fuzzy scoreboard text at above 1080p resolutions
+Fixed issues with spawn screen not allowing to spawn on a newly taken location
+Fixed rank text color and mmr value grouping in player menu
+Tutorial key prompts now use graphical icons instead of text and are displayed below hints
+Reworked how modio checks for latest files and resolved issues with infinite preparing to download mods
+Fixed being able to change near clipping plane to see through objects
+Improved pak file assignments, more work on improving patching times is ongoing
+Fixed several issues relating to searching in matchmaking/quickplay
+Discard unsuitable ranked matches faster, improving matchmaking time
+Fixed character voices having the wrong attenuation when spectating someone in first person
+Added Highlands map, available on Deathmatch, Team Deathmatch, Skirmish, Duel and Teamfight modes.
+All nobles now have 4 health on kill as default
+Skirmish round start now destroys engineer buildings and does not repair objects that cannot be repaired (e.g. trees)
+Added NVIDIA Reflex integration
+Horse couch now drains stamina on activation
+Horse couch is now timed
+Horse couch turncap slightly more strict across the board
+Horse turning now slightly more weighty
+Light & Medium horse top speeds reduced very slightly
+Parry recovery increased 25ms, making double parries slightly harder
+Max parry angle reduced to 70, reducing back/side parries some more
+Getting disarmed now slows down more, making it easier to punish
+Kick stamina drain reduced to 5
+Kick no longer has look smoothing, fixing some ghost hits
+Tank health regen speed buffed very slightly
+Tank turncaps very slightly less strict
+Fixed a dodge exploit that reduced the stamina cost for dodging
+New & updated toolbox buildable wall and spike meshes; The wall is now shorter in height and allows climbing over it
+Stun perk cost reduced to 3
+Fixed rusty arming sword being able to heal when hitting plate legs
+Executioner sword now has heavy weight slowdown
+Stricter strike turncaps for Mace, Warhammer, Falchion and Axe
+Warhammer alt mode headshot damage vs t3 reduced by 5
+Axe stab windup slowed down 25ms
+Eveningstar slightly stricter strike turncaps
+Added Footman's heater shield skin
+Added Crusader's kite shield skin
+Added Gallowglass helmet
+Fixed wrong party MMR being used for matchmaking under certain conditions
+Fixed rare case of server stats reverting to an older state
+Added new first person idles for some equipment
+Added new first person equipment switch animations
+Fixed shield jump animations
+Various minor map optimizations
+Fixed majority of reported map issues on Grad, Feitoria, Taiga, Castello and Mountain Peak
+Various tutorial improvements and bug fixes
+Fixed bug that was causing nobles to be offset in movement, which also fixes broken hit detection that happened in this case
+Fixed bug where some equipment actions failed after entering and leaving a vehicle with said equipment until switching from/to that equipment again (e.g. toolbox placement, beartrap/pavise placement)
+Projectile trails are now straight and no longer squiggle erratically
+Fixed Teamfight score widget not showing all players
+Fixed spawn screen bug where spawn points failed to hide if you spawned and opened the loadout menu on the same frame
+Added display name to destroyable objects
+Added builder name to buildables
+Removed esc menu closing bind from team select menu
+Removed close button from team select menu
+Fixed invasion matchmaking tile being slightly smaller than the rest
+Fixed gamepad shoulder buttons navigating the menu tabs while rebinding an action
+Various new commands
+Added ability to listen for broadcasts (chat, login, match state, killfeed, scorefeed, custom)
+Modding hooks (Allows for back and forth communication)
+Improved responses
+Dramatic server performance & networking improvements
+Fixed the server browser not showing any servers with the ping filter set to 0 instead of showing all servers
+Fixed 0.0.0.0 being accepted as a valid public IP for servers
+Fixed community servers restarting the ModInitialization map if they detect an ongoing ingame event
+Implemented UDP ping fallback for failed ICMP pings
